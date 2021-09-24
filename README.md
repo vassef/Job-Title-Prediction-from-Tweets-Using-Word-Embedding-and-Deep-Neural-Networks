@@ -37,7 +37,8 @@ with 54% accuracy in nine categories.
 
 ### Executing program
 
-* How to run the program
+* There are 4 files inside an Excel_files folder. These are the files that we updated each time during the procedure. 
+Firstly we start our work by searching for two terms including emojis and hashtags. We provided the list of hashtags inside the Hashtag.xlsx file, but the emojis were located inside the code. The codes for these two methods are located in the Extract_data folder naming Search_by_hashtags and Search_by_emojis.
 * Step-by-step bullets
 ```
 code blocks for commands
