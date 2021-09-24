@@ -36,19 +36,20 @@ with 54% accuracy in nine categories.
  3. Download the GloVe zip file from [here](https://nlp.stanford.edu/projects/glove/)
 
 ### Executing program
-1. Folders
-   - There are 4 files inside an "Excel_files folder", which are the list of users with their features updating during each process.
-   - Also, there are 5 files located in the "Extrcat_data" folder which are the processing steps to construct our whole dataset.
-   - After that, we began preprocessing on our dataset consist of embedding and cleaning steps which are located in the "Preprocessing" folder.
-   - Finally, We fed our dataset to the designed models inside the "Models" folder.
-2. Step-by-step
-   - Firstly we start our work by searching for two terms including emojis and hashtags. We provided the list of hashtags inside the Hashtag.xlsx file, but the emojis were        located inside the code. Tweets with less than 50k likes have been removed, which means we were searching for famous groups of users, especially celebrities or influencers on Twitter. The codes for these two methods are located in the "Extract_data" folder naming Search_by_hashtags.py and Search_by_emojis.py .
-   - After searching for users by these two methods, we extracted user's tweets by searching their usernames. We set two limits on extracting tweets:
-     - only English-written tweets would be extracted.
-     - We selected the last 10 to 40 tweets for each user depending on the number of tweets available for that user.
+* Folders
+  - There are 4 files inside an "Excel_files folder", which are the list of users with their features updating during each process.
+  - Also, there are 5 files located in the "Extrcat_data" folder which are the processing steps to construct our whole dataset.
+  - After that, we began preprocessing on our dataset consist of embedding and cleaning steps which are located in the "Preprocessing" folder.
+  - Finally, We fed our dataset to the designed models inside the "Models" folder.
+* Step-by-step
+  - Firstly we start our work by searching for two terms including emojis and hashtags. We provided the list of hashtags inside the Hashtag.xlsx file, but the emojis were        located inside the code. Tweets with less than 50k likes have been removed, which means we were searching for famous groups of users, especially celebrities or influencers on Twitter. The codes for these two methods are located in the "Extract_data" folder naming Search_by_hashtags.py and Search_by_emojis.py .
+  - After searching for users by these two methods, we extracted user's tweets by searching their usernames. We set two limits on extracting tweets:
+    - only English-written tweets would be extracted.
+    - We selected the last 10 to 40 tweets for each user depending on the number of tweets available for that user.
      You can find the whole process in the Extract_tweets.py inside the "Extract_data" folder.
-   - Next, we found each user's bio by searching the user profile. The code is attached to the  "Extract_data" folder named Extract_bio.py.
-   - The final step in the preprocessing is to seek the user's jobs. The method we employed here is to use Wikipedia as a reference webpage to extract user's information especially jobs. We developed an algorithm to separate the phrase related to jobs from the user's Wikipedia summary. After that, we designed a cleaning algorithm to return all the jobs user is involved in separated by a comma. To clarify this, suppose that the user's Wikipedia summary is: "John Joseph Nicholson is an American retired actor and filmmaker whose career spanned more than 50 years." The output of the process would be "actor, filmmaker ". You can find the code in the "Extract_data" folder named Extract_jobs.py.
+  - Next, we found each user's bio by searching the user profile. The code is attached to the  "Extract_data" folder named Extract_bio.py.
+  - The final step in the preprocessing is to seek the user's jobs. The method we employed here is to use Wikipedia as a reference webpage to extract user's information especially jobs. We developed an algorithm to separate the phrase related to jobs from the user's Wikipedia summary. After that, we designed a cleaning algorithm to return all the jobs user is involved in separated by a comma. To clarify this, suppose that the user's Wikipedia summary is: "John Joseph Nicholson is an American retired actor and filmmaker whose career spanned more than 50 years." The output of the process would be "actor, filmmaker ". You can find the code in the "Extract_data" folder named Extract_jobs.py.
+* Here is the 20 most frequent unigram appearing inside the job titles :
 * Step-by-step bullets
 ```
 code blocks for commands
