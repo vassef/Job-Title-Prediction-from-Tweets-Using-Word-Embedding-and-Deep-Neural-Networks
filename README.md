@@ -3,7 +3,20 @@ Job-Title-Prediction-from-Tweets-Using-Word-Embedding-and-Deep-Neural-Networks
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+The more social media take its place in our lives, the
+more important their analysis becomes and the more researchers’
+attention is drawn to it. Studies contain various topics such as
+sentiment analysis, trend prediction, bot detection, etc. Here, for
+the first time, we propose a novel method to predict the job title
+of social media users. Twitter, a popular social media, is the our
+target social media. We introduce a dataset consist of 1314 users’
+tweets and bios. The user’s job title is found using Wikipedia
+crawling. The challenge of multiple job title per user is handled
+using a semantic word embedding and clustering method. Then,
+a job prediction method based on a deep neural network and TFIDF word embedding is introduced. We also take the advantage
+of hashtags and emojis in the tweets for job prediction. Results
+show that the job title of users in Twitter could be well predicted
+with 54% accuracy in nine categories.
 
 ## Getting Started
 
