@@ -73,6 +73,9 @@ Also, the whole summary of accuracies caused by each method and the classificati
 * Shayan vassef 
   - Gmail : shayanvassef2000@gmail.com
   - Linkedin : [shayan vassef](https://www.linkedin.com/in/shayan-vassef-319023203)
+* Ramin tusi
+  - Email : r.toosi@ut.ac.ir
+  - Linkedin : [Ramin Toosi](https://www.linkedin.com/in/ramin-toosi-54308296/)
 
 ## Acknowledgments
 I would like to thank [Adak Vira Iranian Rahjo (Avir) company](https://www.avir.co.com/IR/index.html) for their contribution during this process.
