@@ -75,5 +75,5 @@ Also, the whole summary of accuracies caused by each method and the classificati
   - Linkedin : [shayan vassef](https://www.linkedin.com/in/shayan-vassef-319023203)
 
 ## Acknowledgments
-* I would like to thank [Adak Vira Iranian Rahjo (Avir) company](https://www.avir.co.com/IR/index.html) for their contribution during this process.
+I would like to thank [Adak Vira Iranian Rahjo (Avir) company](https://www.avir.co.com/IR/index.html) for their contribution during this process.
 
