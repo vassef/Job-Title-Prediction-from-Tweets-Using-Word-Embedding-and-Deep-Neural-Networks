@@ -1,5 +1,5 @@
-# Job-Title-Prediction-from-Tweets-Using-Word-Embedding-and-Deep-Neural-Networks
-Simple overview of use/purpose.
+# Project Title
+Job-Title-Prediction-from-Tweets-Using-Word-Embedding-and-Deep-Neural-Networks
 
 ## Description
 
