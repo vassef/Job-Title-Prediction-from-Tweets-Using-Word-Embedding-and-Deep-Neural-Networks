@@ -22,7 +22,7 @@ with 54% accuracy in nine categories.
 
 ### Dependencies
 
-* twint library(If you get the error: "Cannot connect to host twitter.com", then check out this [link](https://github.com/twintproject/twint/issues/442))
+* twint library
 * emojis library
 * GloVe pre-trained model
 
@@ -63,30 +63,16 @@ The DNN summary :\
 ![fig5](https://user-images.githubusercontent.com/88703731/134738888-1cd95d3b-8647-40b9-bc93-47daac9f6f87.png)\
 The CNN summary :\
 ![fig6](https://user-images.githubusercontent.com/88703731/134738898-80527a47-3597-4669-845a-9f717ab63f3e.png)\
-Also, the classification report of the second method running on DNN is attached below :\
-
-
-
-
-
-* Step-by-step bullets
-```
-code blocks for commands
-```
+Also, the whole summary of accuracies caused by each method and the classification report of the second method running on DNN is attached below :\
+![Model_summary](https://user-images.githubusercontent.com/88703731/134739319-aa54ea88-d6c6-4cb1-bda7-d3e279816d0c.png)
 
 ## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
+* If you get the error: "Cannot connect to host twitter.com", then check out this [link](https://github.com/twintproject/twint/issues/442)
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+* Shayan vassef 
+  - Gmail : shayanvassef2000@gmail.com
+  - Linkedin : [shayan vassef](https://www.linkedin.com/in/shayan-vassef-319023203)
 
 ## Version History
 
