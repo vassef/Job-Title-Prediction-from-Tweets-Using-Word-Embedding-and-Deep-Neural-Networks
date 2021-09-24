@@ -22,12 +22,15 @@ with 54% accuracy in nine categories.
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* twint library(won't work without vpn.Note that it should be a vpn application NOT SSR.)
+* emojis library
+* GloVe pre-trained model
 
 ### Installing
 
-* How/where to download your program
+* Installing twint :
+* - Download and Install git in your windows from [here](https://git-scm.com/download/win)
+* - pip3 install --user --upgrade -e git+https://github.com/twintproject/twint.git@origin/master#egg=twint
 * Any modifications needed to be made to files/folders
 
 ### Executing program
