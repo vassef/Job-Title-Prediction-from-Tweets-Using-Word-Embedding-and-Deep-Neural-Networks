@@ -37,8 +37,11 @@ with 54% accuracy in nine categories.
 
 ### Executing program
 
-* There are 4 files inside an Excel_files folder. These are the files that we updated each time during the procedure. 
-Firstly we start our work by searching for two terms including emojis and hashtags. We provided the list of hashtags inside the Hashtag.xlsx file, but the emojis were located inside the code. The codes for these two methods are located in the Extract_data folder naming Search_by_hashtags and Search_by_emojis.
+- There are 4 files inside an "Excel_files folder", which are the list of users with their features updating during each process.
+Firstly we start our work by searching for two terms including emojis and hashtags. We provided the list of hashtags inside the Hashtag.xlsx file, but the emojis were located inside the code. Tweets with less than 50k likes have been removed, which means we were searching for famous groups of users, especially celebrities or influencers on Twitter. The codes for these two methods are located in the "Extract_data" folder naming Search_by_hashtags and Search_by_emojis.
+- After searching for users by these two methods, we extracted user's tweets by searching their usernames. We set two limits on extracting tweets:
+  - only English-written tweets would be extracted.
+  - We selected the last 10 to 40 tweets for each user depending on the number of tweets available for that user.
 * Step-by-step bullets
 ```
 code blocks for commands
