@@ -75,7 +75,7 @@ Also, the whole summary of accuracies caused by each method and the classificati
   - Linkedin : [shayan vassef](https://www.linkedin.com/in/shayan-vassef-319023203)
 
 ## Acknowledgments
-* The authors would like to offer their special thanks to
+* The author would like to offer their special thanks to
 Adak Vira Iranian Rahjo (Avir) company for providing needed
 hardware, including GPU, for this project.
 
