@@ -22,7 +22,7 @@ with 54% accuracy in nine categories.
 
 ### Dependencies
 
-* twint library(If you get the Error : "Cannot connect to host twitter.com" ,then checkout this [link](https://github.com/twintproject/twint/issues/442))
+* twint library(If you get the error: "Cannot connect to host twitter.com", then check out this [link](https://github.com/twintproject/twint/issues/442))
 * emojis library
 * GloVe pre-trained model
 
@@ -31,7 +31,9 @@ with 54% accuracy in nine categories.
 * Installing twint :
 * - Download and Install git in your windows from [here](https://git-scm.com/download/win)
 * - pip3 install --user --upgrade -e git+https://github.com/twintproject/twint.git@origin/master#egg=twint
-* Any modifications needed to be made to files/folders
+* Installing emojis :
+* - pip3 install emojis
+* Download the GloVe zip file from [here](https://nlp.stanford.edu/projects/glove/)
 
 ### Executing program
 
