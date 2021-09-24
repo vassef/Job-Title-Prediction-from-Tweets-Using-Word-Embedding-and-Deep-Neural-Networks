@@ -22,7 +22,7 @@ with 54% accuracy in nine categories.
 
 ### Dependencies
 
-* twint library(won't work without vpn.Note that it should be a vpn application NOT SSR.)
+* twint library(If you get the Error : "Cannot connect to host twitter.com" ,then checkout this [link](https://github.com/twintproject/twint/issues/442))
 * emojis library
 * GloVe pre-trained model
 
