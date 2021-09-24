@@ -28,12 +28,12 @@ with 54% accuracy in nine categories.
 
 ### Installing
 
-* 1. Installing twint :
-     - Download and Install git in your windows from [here](https://git-scm.com/download/win)
-     - pip3 install --user --upgrade -e git+https://github.com/twintproject/twint.git@origin/master#egg=twint
-* 2. Installing emojis :
-     - pip3 install emojis
-* 3. Download the GloVe zip file from [here](https://nlp.stanford.edu/projects/glove/)
+ 1. Installing twint :
+    - Download and Install git in your windows from [here](https://git-scm.com/download/win)
+    - pip3 install --user --upgrade -e git+https://github.com/twintproject/twint.git@origin/master#egg=twint
+ 2. Installing emojis :
+    - pip3 install emojis
+ 3. Download the GloVe zip file from [here](https://nlp.stanford.edu/projects/glove/)
 
 ### Executing program
 
