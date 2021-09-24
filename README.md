@@ -48,8 +48,9 @@ with 54% accuracy in nine categories.
     - We selected the last 10 to 40 tweets for each user depending on the number of tweets available for that user.
      You can find the whole process in the Extract_tweets.py inside the "Extract_data" folder.
   - Next, we found each user's bio by searching the user profile. The code is attached to the  "Extract_data" folder named Extract_bio.py.
-  - The final step in the preprocessing is to seek the user's jobs. The method we employed here is to use Wikipedia as a reference webpage to extract user's information especially jobs. We developed an algorithm to separate the phrase related to jobs from the user's Wikipedia summary. After that, we designed a cleaning algorithm to return all the jobs user is involved in separated by a comma. To clarify this, suppose that the user's Wikipedia summary is: "John Joseph Nicholson is an American retired actor and filmmaker whose career spanned more than 50 years." The output of the process would be "actor, filmmaker ". You can find the code in the "Extract_data" folder named Extract_jobs.py.
-* Here is the 20 most frequent unigram appearing inside the job titles :
+  - The final step in the preprocessing is to seek the user's jobs. The method we employed here is to use Wikipedia as a reference webpage to extract user's information especially jobs. We developed an algorithm to separate the phrase related to jobs from the user's Wikipedia summary. After that, we designed a cleaning algorithm to return all the jobs user is involved in separated by a comma. To clarify this, suppose that the user's Wikipedia summary is: "John Joseph Nicholson is an American retired actor and filmmaker whose career spanned more than 50 years." The output of the process would be "actor, filmmaker ". You can find the code in the "Extract_data" folder named Extract_jobs.py.\
+Here is the 20 most frequent unigram appearing inside the job titles :![newplot](https://user-images.githubusercontent.com/88703731/134731330-c846dd28-f2ff-406c-91bb-38afc964e38f.png)
+
 * Step-by-step bullets
 ```
 code blocks for commands
