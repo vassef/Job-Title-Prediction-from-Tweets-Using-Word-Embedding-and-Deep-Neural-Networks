@@ -13,7 +13,7 @@ target social media. We introduce a dataset consist of 1314 users’
 tweets and bios. The user’s job title is found using Wikipedia
 crawling. The challenge of multiple job title per user is handled
 using a semantic word embedding and clustering method. Then,
-a job prediction method based on a deep neural network and TFIDF word embedding is introduced. We also take the advantage
+a job prediction method based on a deep neural network and TF-IDF word embedding is introduced. We also take the advantage
 of hashtags and emojis in the tweets for job prediction. Results
 show that the job title of users in Twitter could be well predicted
 with 54% accuracy in nine categories.
