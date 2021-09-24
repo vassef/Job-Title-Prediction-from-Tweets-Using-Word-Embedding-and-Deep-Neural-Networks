@@ -58,7 +58,8 @@ In the first, we employed the GolVe pre-trained model for the embedding purpose.
     - Method 3(RHRW): Remove the hashtag sign(#) and replace the following word with its most relevant string.
 You can access the code in the "Preprocessing" folder named User_finall_processing.ipynb. 
   - Now it's time to evaluate our dataset by testing the three designed models locating in the "Models" folder.
-Here you can find the whole summary and the classification report attached below :
+Here you can find the whole summary of NN models below :
+
 
 * Step-by-step bullets
 ```
