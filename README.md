@@ -37,7 +37,7 @@ with 54% accuracy in nine categories.
 
 ### Executing program
 * Folders
-  - There are 4 files inside an "Excel_files" folder, which are the list of users with their features updating during each process.You can find the user's full information in User.FInfo.xlsx and the final preprocessed dataset in DFD.xlsx. 
+  - There are 4 files inside an "Excel_files" folder, which are the list of users with their features updating during each process.You can find the user's full information in User.FInfo.xlsx and the final preprocessed dataset in FDF.xlsx. 
   - Also, there are 5 files located in the "Extrcat_data" folder which are the extracting steps to construct our whole dataset.
   - After that, we began preprocessing on our dataset consist of embedding and cleaning steps which are located in the "Preprocessing" folder.
   - Finally, We fed our dataset to the designed models inside the "Models" folder.
