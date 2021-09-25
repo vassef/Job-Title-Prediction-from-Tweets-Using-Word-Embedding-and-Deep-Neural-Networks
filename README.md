@@ -9,7 +9,7 @@ attention is drawn to it. Studies contain various topics such as
 sentiment analysis, trend prediction, bot detection, etc. Here, for
 the first time, we propose a novel method to predict the job title
 of social media users. Twitter, a popular social media, is the our
-target social media. We introduce a dataset consist of 1314 users’
+target social media. We introduce a dataset consist of **1314** users’
 tweets and bios. The user’s job title is found using Wikipedia
 crawling. The challenge of multiple job title per user is handled
 using a semantic word embedding and clustering method. Then,
@@ -37,7 +37,7 @@ with 54% accuracy in nine categories.
 
 ### Executing program
 * Folders
-  - There are 4 files inside an "Excel_files" folder, which are the list of users with their features updating during each process.You can find the user's full information in User.FInfo.xlsx and the final preprocessed dataset in FDF.xlsx. 
+  - There are 4 files inside an "Excel_files" folder, which are the list of users with their features updating during each process.You can find the **user's full information** in User.FInfo.xlsx and the **final preprocessed dataset** in FDF.xlsx. 
   - Also, there are 5 files located in the "Extrcat_data" folder which are the extracting steps to construct our whole dataset.
   - After that, we began preprocessing on our dataset consist of embedding and cleaning steps which are located in the "Preprocessing" folder.
   - Finally, We fed our dataset to the designed models inside the "Models" folder.
@@ -52,7 +52,7 @@ with 54% accuracy in nine categories.
 Here is the 20 most frequent unigram appearing inside the job titles :![newplot](https://user-images.githubusercontent.com/88703731/134731330-c846dd28-f2ff-406c-91bb-38afc964e38f.png)
   - After preparing our dataset, it's time to apply preprocessing steps.
 In the first, we employed the GolVe pre-trained model for the embedding purpose. To generalize our model, we extracted the first two jobs of many that the user can have. Then we converted each job to a single word since we would measure the similarity between two words.  As an example, we converted the string "news anchor "  to the combination of "news" and "anchor" and then replaced the most similar word to this combination. The method we used is the Sum of word vectors which simply adds the vectors of the whole words inside a document.After that, we use the Kmeans clustering to categorize our job titles in which The jobs with the same interest lie in the same group.
-. To find the optimum number of clusters, we employed the Elbow method which gave us 9 unique labels shown in below :\
+. To find the optimum number of clusters, we employed the Elbow method which gave us **9** unique labels shown in below :\
 ![fig3](https://user-images.githubusercontent.com/88703731/134761715-27a06f5b-d296-475d-b90a-4f5fa69bf63f.png)\
 Also, you can see the patterns appearing in each label:\
 ![pattern](https://user-images.githubusercontent.com/88703731/134761822-3bd233cd-fb86-44b5-a3b8-c018547b12b9.png)\
