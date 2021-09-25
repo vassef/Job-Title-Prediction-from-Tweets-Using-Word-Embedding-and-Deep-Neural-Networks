@@ -53,8 +53,8 @@ Here is the 20 most frequent unigram appearing inside the job titles :![newplot]
   - After preparing our dataset, it's time to apply preprocessing steps.
 In the first, we employed the GolVe pre-trained model for the embedding purpose. To generalize our model, we extracted the first two jobs of many that the user can have. Then we converted each job to a single word since we would measure the similarity between two words.  As an example, we converted the string "news anchor "  to the combination of "news" and "anchor" and then replaced the most similar word to this combination. The method we used is the Sum of word vectors which simply adds the vectors of the whole words inside a document.After that, we use the Kmeans clustering to categorize our job titles in which The jobs with the same interest lie in the same group.
 . To find the optimum number of clusters, we employed the Elbow method which gave us 9 unique labels shown in below :\
-
-![fig3](https://user-images.githubusercontent.com/88703731/134761715-27a06f5b-d296-475d-b90a-4f5fa69bf63f.png)
+![fig3](https://user-images.githubusercontent.com/88703731/134761715-27a06f5b-d296-475d-b90a-4f5fa69bf63f.png)\
+Also, you can see the patterns appearing in each label:\
 
 
 The code for this part is located in the "Preprocessing" folder named User_jobs_embedding.ipynb. 
