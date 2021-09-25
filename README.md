@@ -37,8 +37,8 @@ with 54% accuracy in nine categories.
 
 ### Executing program
 * Folders
-  - There are 4 files inside an "Excel_files folder", which are the list of users with their features updating during each process.
-  - Also, there are 5 files located in the "Extrcat_data" folder which are the processing steps to construct our whole dataset.
+  - There are 4 files inside an "Excel_files" folder, which are the list of users with their features updating during each process.
+  - Also, there are 5 files located in the "Extrcat_data" folder which are the extracting steps to construct our whole dataset.
   - After that, we began preprocessing on our dataset consist of embedding and cleaning steps which are located in the "Preprocessing" folder.
   - Finally, We fed our dataset to the designed models inside the "Models" folder.
 * Step-by-step
@@ -51,7 +51,10 @@ with 54% accuracy in nine categories.
   - The final step in the extraction is to seek the user's jobs. The method we employed here is to use Wikipedia as a reference webpage to extract user's information especially jobs. We developed an algorithm to separate the phrase related to jobs from the user's Wikipedia summary. After that, we designed a cleaning algorithm to return all the jobs user is involved in separated by a comma. To clarify this, suppose that the user's Wikipedia summary is: "John Joseph Nicholson is an American retired actor and filmmaker whose career spanned more than 50 years." The output of the process would be "actor, filmmaker ". You can find the code in the "Extract_data" folder named Extract_jobs.py.\
 Here is the 20 most frequent unigram appearing inside the job titles :![newplot](https://user-images.githubusercontent.com/88703731/134731330-c846dd28-f2ff-406c-91bb-38afc964e38f.png)
   - After preparing our dataset, it's time to apply preprocessing steps.
-In the first, we employed the GolVe pre-trained model for the embedding purpose. To generalize our model, we extracted the first two jobs of many that the user can have. Then we converted each job to a single word since we would measure the similarity between two words.  As an example, we converted the string "news anchor "  to the combination of "news" and "anchor" and then replaced the most similar word to this combination. The method we used is the Sum of word vectors which simply adds the vectors of the whole words inside a document. The code for this part is located in the "Preprocessing" folder named User_jobs_embedding.ipynb. 
+In the first, we employed the GolVe pre-trained model for the embedding purpose. To generalize our model, we extracted the first two jobs of many that the user can have. Then we converted each job to a single word since we would measure the similarity between two words.  As an example, we converted the string "news anchor "  to the combination of "news" and "anchor" and then replaced the most similar word to this combination. The method we used is the Sum of word vectors which simply adds the vectors of the whole words inside a document.After that, we use the Kmeans clustering to categorize our job titles in which The jobs with the same interest lie in the same group.
+. To find the optimum number of clusters, we employed the Elbow method which gave us 9 unique labels.Here you can see the patterns appearing in each label:\
+
+The code for this part is located in the "Preprocessing" folder named User_jobs_embedding.ipynb. 
   - Finally, we do some cleanings by removing mentions, stopwords, punctuations, and URLs. Also, spell checking and lemmatization are done to prepare our dataset for the final step. Also, we proposed three methods dealing with hashtags discussed below :
     - Method 1(RHW): Remove both the hashtag sign(#) and the following word that yields losing information. 
     - Method 2(RH): Remove just the hashtag sign(#) that can insert some noises in our data, since usually hashtags are written with no spaces, which causes ambiguity in the  meaning. 
@@ -70,10 +73,10 @@ Also, the whole summary of accuracies caused by each method and the classificati
 * If you get the error: "Cannot connect to host twitter.com", then check out this [link](https://github.com/twintproject/twint/issues/442)
 ## Authors
 
-* Shayan vassef 
+* Shayan Vassef 
   - Gmail : shayanvassef2000@gmail.com
   - Linkedin : [shayan vassef](https://www.linkedin.com/in/shayan-vassef-319023203)
-* Ramin tusi
+* Ramin Toosi
   - Email : r.toosi@ut.ac.ir
   - Linkedin : [Ramin Toosi](https://www.linkedin.com/in/ramin-toosi-54308296/)
 
