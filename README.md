@@ -55,8 +55,7 @@ In the first, we employed the GolVe pre-trained model for the embedding purpose.
 . To find the optimum number of clusters, we employed the Elbow method which gave us 9 unique labels shown in below :\
 ![fig3](https://user-images.githubusercontent.com/88703731/134761715-27a06f5b-d296-475d-b90a-4f5fa69bf63f.png)\
 Also, you can see the patterns appearing in each label:\
-
-
+![pattern](https://user-images.githubusercontent.com/88703731/134761822-3bd233cd-fb86-44b5-a3b8-c018547b12b9.png)\
 The code for this part is located in the "Preprocessing" folder named User_jobs_embedding.ipynb. 
   - Finally, we do some cleanings by removing mentions, stopwords, punctuations, and URLs. Also, spell checking and lemmatization are done to prepare our dataset for the final step. Also, we proposed three methods dealing with hashtags discussed below :
     - Method 1(RHW): Remove both the hashtag sign(#) and the following word that yields losing information. 
