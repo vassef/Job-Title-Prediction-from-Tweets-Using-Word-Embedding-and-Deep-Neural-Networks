@@ -42,7 +42,7 @@ with 54% accuracy in nine categories.
   - After that, we began preprocessing on our dataset consist of embedding and cleaning steps which are located in the "Preprocessing" folder.
   - Finally, We fed our dataset to the designed models inside the "Models" folder.
 * Step-by-step
-  - Firstly we start our work by searching for two terms including emojis and hashtags. We provided the list of hashtags inside the Hashtag.xlsx file, but the emojis were        located inside the code. Tweets with less than 50k likes have been removed, which means we were searching for famous groups of users, especially celebrities or influencers on Twitter. The codes for these two methods are located in the "Extract_data" folder naming Search_by_hashtags.py and Search_by_emojis.py .
+  - Firstly we start our work by searching for two terms including emojis and hashtags. We provided the list of hashtags inside the Hashtag.xlsx file, but the emojis were        located inside the code. Tweets with less than 50k likes have been removed, which means we were searching for famous groups of users, especially celebrities or influencers on Twitter. The codes for these two methods are located in the "Extract_data" folder named Search_by_hashtags.py and Search_by_emojis.py .
   - After searching for users by these two methods, we extracted user's tweets by searching their usernames. We set two limits on extracting tweets:
     - only English-written tweets would be extracted.
     - We selected the last 10 to 40 tweets for each user depending on the number of tweets available for that user.
