@@ -1,23 +1,8 @@
 # Project Title
-Job-Title-Prediction-from-Tweets-Using-Word-Embedding-and-Deep-Neural-Networks
+Job classification by analyzing tweets using Deep neural networks
 
 ## Description
-
-The more social media take its place in our lives, the
-more important their analysis becomes and the more researchers’
-attention is drawn to it. Studies contain various topics such as
-sentiment analysis, trend prediction, bot detection, etc. Here, for
-the first time, we propose a novel method to predict the job title
-of social media users. Twitter, a popular social media, is the our
-target social media. We introduce a dataset consist of **1314** users’
-tweets and bios. The user’s job title is found using Wikipedia
-crawling. The challenge of multiple job title per user is handled
-using a semantic word embedding and clustering method. Then,
-a job prediction method based on a deep neural network and TF-IDF word embedding is introduced. We also take the advantage
-of hashtags and emojis in the tweets for job prediction. Results
-show that the job title of users in Twitter could be well predicted
-with 54% accuracy in nine categories.
-
+Here is the official implementation of our paper submitted at the ICEE conference.
 ## Getting Started
 
 ### Dependencies
@@ -39,7 +24,7 @@ with 54% accuracy in nine categories.
 * Folders
   - There are 4 files inside an "Excel_files" folder, which are the list of users with their features updating during each process.You can find the **user's full information** in User.FInfo.xlsx and the **final preprocessed dataset** in FDF.xlsx. 
   - Also, there are 5 files located in the "Extrcat_data" folder which are the extracting steps to construct our whole dataset.
-  - After that, we began preprocessing on our dataset consist of embedding and cleaning steps which are located in the "Preprocessing" folder.
+  - After that, we began preprocessing on our dataset consisting of embedding and cleaning steps which are located in the "Preprocessing" folder.
   - Finally, We fed our dataset to the designed models inside the "Models" folder.
 * Step-by-step
   - Firstly we start our work by searching for two terms including emojis and hashtags. We provided the list of hashtags inside the Hashtag.xlsx file, but the emojis were        located inside the code. Tweets with less than 50k likes have been removed, which means we were searching for famous groups of users, especially celebrities or influencers on Twitter. The codes for these two methods are located in the "Extract_data" folder named Search_by_hashtags.py and Search_by_emojis.py .
