@@ -42,7 +42,7 @@ In the first, we employed the GolVe pre-trained model for the embedding purpose.
 Also, you can see the patterns appearing in each label:\
 ![pattern](https://user-images.githubusercontent.com/88703731/134761822-3bd233cd-fb86-44b5-a3b8-c018547b12b9.png)\
 The code for this part is located in the "Preprocessing" folder named User_jobs_embedding.ipynb. 
-Also, we proposed three methods dealing with hashtags and compare the performance for each of them.
+  - Also, we proposed three methods dealing with hashtags and compare the performance for each of them.
 You can access the code in the "Preprocessing" folder named User_finall_processing.ipynb. 
   - Now it's time to evaluate our dataset by testing the three designed models locating in the "Models" folder.
 Here you can find the whole summary of NN models below:\
