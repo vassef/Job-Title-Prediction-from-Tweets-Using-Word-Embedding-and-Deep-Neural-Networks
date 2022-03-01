@@ -44,6 +44,7 @@ Also, you can see the patterns appearing in each label:\
 The code is located in the "Preprocessing" folder named User_jobs_embedding.ipynb. 
   - Also, we proposed three methods dealing with hashtags and compared the performance for each of them.
 You can access the code in the "Preprocessing" folder named User_finall_processing.ipynb. 
+### Results
   - Now, it's time to evaluate our dataset by testing the three designed models in the "Models" folder.
 Here you can find the whole summary of NN models below:\
 The DNN summary :\
