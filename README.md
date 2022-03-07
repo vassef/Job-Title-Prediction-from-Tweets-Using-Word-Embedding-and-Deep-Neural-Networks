@@ -55,7 +55,7 @@ Also, the whole summary of accuracies caused by each method and the classificati
 ![Model_summary](https://user-images.githubusercontent.com/88703731/134739319-aa54ea88-d6c6-4cb1-bda7-d3e279816d0c.png)
 
 ## Help
-If you have connection issues like: "Cannot connect to host twitter.com," check out this [link](https://github.com/twintproject/twint/issues/442)
+If you have connection issues like: "Cannot connect to host twitter.com," check out this [link](https://github.com/twintproject/twint/issues/442).
 ## Authors
 
 * Shayan Vassef 
