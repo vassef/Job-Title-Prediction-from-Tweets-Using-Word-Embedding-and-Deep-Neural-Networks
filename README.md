@@ -47,12 +47,7 @@ The code is located in the "Preprocessing" folder named User_jobs_embedding.ipyn
 You can access the code in the "Preprocessing" folder named User_finall_processing.ipynb. 
 ### Results
  Now, it's time to evaluate our dataset by testing the three designed models in the "Models" folder.
-Here you can find the whole summary of NN models below:\
-The DNN summary :\
-![fig5](https://user-images.githubusercontent.com/88703731/134738888-1cd95d3b-8647-40b9-bc93-47daac9f6f87.png)\
-The CNN summary :\
-![fig6](https://user-images.githubusercontent.com/88703731/134738898-80527a47-3597-4669-845a-9f717ab63f3e.png)\
-Also, the whole summary of accuracies caused by each method and the classification report of the second method running on DNN is attached below :\
+ Also, the model performance caused by each method and the classification report of the DDN model is attached below :\
 ![Model_summary](https://user-images.githubusercontent.com/88703731/134739319-aa54ea88-d6c6-4cb1-bda7-d3e279816d0c.png)
 
 ## Help
