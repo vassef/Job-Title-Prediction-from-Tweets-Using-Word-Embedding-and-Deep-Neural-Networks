@@ -1,5 +1,6 @@
 # Project Title
-Job classification by analyzing tweets using Deep neural networks
+
+Job Title Prediction from Tweets Using Word Embedding and Deep Neural Networks
 
 ## Description
 Here is the official implementation of our paper submitted at the ICEE conference.
