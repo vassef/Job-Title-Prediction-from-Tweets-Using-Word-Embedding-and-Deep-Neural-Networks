@@ -46,8 +46,7 @@ The code is located in the "Preprocessing" folder named User_jobs_embedding.ipyn
   - Also, we proposed three methods dealing with hashtags and compared the performance for each of them.
 You can access the code in the "Preprocessing" folder named User_finall_processing.ipynb. 
 ### Results
- Now, it's time to evaluate our dataset by testing the three designed models in the "Models" folder.
- Also, the model performance caused by each method and the classification report of the DDN model is attached below :\
+ Now, it's time to evaluate our dataset by investigating the three designed models in the "Models" folder. Also, the model performance caused by each method and the  classification report of the DDN model is attached below :\
 ![Model_summary](https://user-images.githubusercontent.com/88703731/134739319-aa54ea88-d6c6-4cb1-bda7-d3e279816d0c.png)
 
 ## Help
