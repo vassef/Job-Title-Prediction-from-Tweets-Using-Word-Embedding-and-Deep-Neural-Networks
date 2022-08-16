@@ -61,6 +61,6 @@ If you have connection issues like: "Cannot connect to host twitter.com," check 
   - Linkedin : [Ramin Toosi](https://www.linkedin.com/in/ramin-toosi-54308296/)
 
 ## Acknowledgments
-I would like to thank [Adak Vira Iranian Rahjo (Avir) company](https://www.avir.co.com/IR/index.html) for their contribution during this project.
+I would like to thank [Adak Vira Iranian Rahjo (Avir) company](https://www.avir.co.com/) for their contribution during this project.
 
 
