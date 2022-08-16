@@ -3,7 +3,7 @@
 Job Title Prediction from Tweets Using Word Embedding and Deep Neural Networks
 
 ## Description
-Here is the official implementation of our [paper](https://drive.google.com/file/d/1m4jL2300ChtihBlAp3TMh1N_U097mFPv/view?usp=sharing) submitted at the ICEE conference.
+Here is the official implementation of our [paper](https://ieeexplore.ieee.org/document/9827265) accepted at the ICEE conference.
 ## Getting Started
 
 ### Dependencies
